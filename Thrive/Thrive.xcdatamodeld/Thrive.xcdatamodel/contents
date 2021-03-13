@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Activity" representedClassName="Activity" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isRec" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="activityWeekDay" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WeekDay" inverseName="dayActivity" inverseEntity="WeekDay"/>
+        <relationship name="complete" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WeekDay" inverseName="complete" inverseEntity="WeekDay"/>
+        <relationship name="dayComplete" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="complete" inverseEntity="Day"/>
+        <relationship name="dayIncomplete" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="incomplete" inverseEntity="Day"/>
+        <relationship name="dayOf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="activity" inverseEntity="Day"/>
+        <relationship name="incomplete" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WeekDay" inverseName="incomplete" inverseEntity="WeekDay"/>
+        <relationship name="recurring" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WeekDay" inverseName="recurring" inverseEntity="WeekDay"/>
+    </entity>
+    <entity name="Day" representedClassName="Day" syncable="YES">
+        <attribute name="dayDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="activity" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="dayOf" inverseEntity="Activity"/>
+        <relationship name="complete" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="dayComplete" inverseEntity="Activity"/>
+        <relationship name="incomplete" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="dayIncomplete" inverseEntity="Activity"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="dayDate"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class">
+        <attribute name="dayOfWeek" optional="YES" attributeType="String"/>
+        <attribute name="intOfWeek" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Goal" representedClassName="Goal" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Info" representedClassName="Info" syncable="YES" codeGenerationType="class">
+        <attribute name="eventCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="goalCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="projectCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="taskCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Project" representedClassName="Project" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TestEntity" representedClassName="TestEntity" syncable="YES">
+        <attribute name="isRec" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="WeekDay" representedClassName="WeekDay" syncable="YES">
+        <attribute name="dayOfWeek" optional="YES" attributeType="String"/>
+        <attribute name="intOfWeek" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="complete" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="complete" inverseEntity="Activity"/>
+        <relationship name="dayActivity" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="activityWeekDay" inverseEntity="Activity"/>
+        <relationship name="incomplete" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="incomplete" inverseEntity="Activity"/>
+        <relationship name="recurring" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="recurring" inverseEntity="Activity"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="dayOfWeek"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Activity" positionX="-45" positionY="0" width="128" height="238"/>
+        <element name="Day" positionX="-18" positionY="54" width="128" height="103"/>
+        <element name="Entity" positionX="0" positionY="117" width="128" height="73"/>
+        <element name="Goal" positionX="-18" positionY="45" width="128" height="73"/>
+        <element name="Info" positionX="-9" positionY="54" width="128" height="103"/>
+        <element name="Project" positionX="9" positionY="63" width="128" height="73"/>
+        <element name="TestEntity" positionX="0" positionY="90" width="128" height="58"/>
+        <element name="WeekDay" positionX="-9" positionY="108" width="128" height="133"/>
+    </elements>
+</model>

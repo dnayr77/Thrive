@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940253AF255E513500DF6495 /* AddActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940253AE255E513500DF6495 /* AddActivity.swift */; };
+		940253C6255E66BF00DF6495 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940253C5255E66BF00DF6495 /* ActivityView.swift */; };
+		943C1B522578DE4A0080CEA9 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C1B512578DE4A0080CEA9 /* PagerView.swift */; };
+		943C1B5B257B49030080CEA9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C1B5A257B49030080CEA9 /* SettingsView.swift */; };
+		943C1B60257B4BF50080CEA9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943C1B5F257B4BF50080CEA9 /* CalendarView.swift */; };
+		946D2DE0252D040800A80F28 /* Thrive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 946D2DDE252D040800A80F28 /* Thrive.xcdatamodeld */; };
+		947D4A332574BA7400E8DE6C /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D4A322574BA7400E8DE6C /* UserView.swift */; };
+		947D4A382574BC5C00E8DE6C /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D4A372574BC5C00E8DE6C /* TodayView.swift */; };
+		947D4A3D2574BCA500E8DE6C /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D4A3C2574BCA500E8DE6C /* WeekView.swift */; };
+		947D4A422574BCBD00E8DE6C /* AllActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947D4A412574BCBD00E8DE6C /* AllActivityView.swift */; };
+		948B28032574C0E8000F5815 /* Day+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B27FD2574C0E8000F5815 /* Day+CoreDataClass.swift */; };
+		948B28042574C0E8000F5815 /* Day+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B27FE2574C0E8000F5815 /* Day+CoreDataProperties.swift */; };
+		948B282C25760496000F5815 /* Activity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B282825760496000F5815 /* Activity+CoreDataClass.swift */; };
+		948B282D25760496000F5815 /* Activity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B282925760496000F5815 /* Activity+CoreDataProperties.swift */; };
+		948B282E25760496000F5815 /* WeekDay+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B282A25760496000F5815 /* WeekDay+CoreDataClass.swift */; };
+		948B282F25760496000F5815 /* WeekDay+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B282B25760496000F5815 /* WeekDay+CoreDataProperties.swift */; };
+		948B28382576114A000F5815 /* ElementStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B28372576114A000F5815 /* ElementStyle.swift */; };
+		948B283D25761178000F5815 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B283C25761178000F5815 /* ButtonStyle.swift */; };
+		948B284225761726000F5815 /* ActivitySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B284125761726000F5815 /* ActivitySectionView.swift */; };
+		948B286225762799000F5815 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948B286125762799000F5815 /* Sample.swift */; };
 		948F259E250C69BB003C61F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F259D250C69BB003C61F3 /* AppDelegate.swift */; };
 		948F25A0250C69BB003C61F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F259F250C69BB003C61F3 /* SceneDelegate.swift */; };
 		948F25A2250C69BB003C61F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F25A1250C69BB003C61F3 /* ContentView.swift */; };
@@ -15,6 +35,15 @@
 		948F25AA250C69BE003C61F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948F25A8250C69BE003C61F3 /* LaunchScreen.storyboard */; };
 		948F25B5250C69BE003C61F3 /* ThriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F25B4250C69BE003C61F3 /* ThriveTests.swift */; };
 		948F25C0250C69BE003C61F3 /* ThriveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F25BF250C69BE003C61F3 /* ThriveUITests.swift */; };
+		948F25CE2511CA66003C61F3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F25CD2511CA66003C61F3 /* HomeView.swift */; };
+		948F25D02511CD95003C61F3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F25CF2511CD95003C61F3 /* FeedView.swift */; };
+		948F2D92256B8FB0008134BE /* RecurringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F2D91256B8FB0008134BE /* RecurringView.swift */; };
+		948F2D97256B8FD1008134BE /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F2D96256B8FD1008134BE /* ProgressView.swift */; };
+		948F2D9C256B9B04008134BE /* UpcomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F2D9B256B9B04008134BE /* UpcomingView.swift */; };
+		948F2DAA256E39EB008134BE /* thriveInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F2DA9256E39EB008134BE /* thriveInfo.swift */; };
+		948F2DB5256E4E5A008134BE /* PastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F2DB4256E4E5A008134BE /* PastView.swift */; };
+		948F2DF825722A4E008134BE /* FilteredActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F2DF725722A4E008134BE /* FilteredActivity.swift */; };
+		94F61AF32576509B00C8FFFA /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940253CD255E6D9800DF6495 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +64,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		940253AE255E513500DF6495 /* AddActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivity.swift; sourceTree = "<group>"; };
+		940253C5255E66BF00DF6495 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		940253CD255E6D9800DF6495 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		943C1B512578DE4A0080CEA9 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		943C1B5A257B49030080CEA9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		943C1B5F257B4BF50080CEA9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		946D2DDF252D040800A80F28 /* Thrive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thrive.xcdatamodel; sourceTree = "<group>"; };
+		947D4A322574BA7400E8DE6C /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		947D4A372574BC5C00E8DE6C /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		947D4A3C2574BCA500E8DE6C /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		947D4A412574BCBD00E8DE6C /* AllActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllActivityView.swift; sourceTree = "<group>"; };
+		948B27FD2574C0E8000F5815 /* Day+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Day+CoreDataClass.swift"; path = "Thrive/New Group/Day+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		948B27FE2574C0E8000F5815 /* Day+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Day+CoreDataProperties.swift"; path = "Thrive/New Group/Day+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		948B282825760496000F5815 /* Activity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		948B282925760496000F5815 /* Activity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		948B282A25760496000F5815 /* WeekDay+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeekDay+CoreDataClass.swift"; sourceTree = "<group>"; };
+		948B282B25760496000F5815 /* WeekDay+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeekDay+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		948B28372576114A000F5815 /* ElementStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementStyle.swift; sourceTree = "<group>"; };
+		948B283C25761178000F5815 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		948B284125761726000F5815 /* ActivitySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySectionView.swift; sourceTree = "<group>"; };
+		948B286125762799000F5815 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		948F259A250C69BB003C61F3 /* Thrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948F259D250C69BB003C61F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		948F259F250C69BB003C61F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +99,14 @@
 		948F25BB250C69BE003C61F3 /* ThriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThriveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		948F25BF250C69BE003C61F3 /* ThriveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThriveUITests.swift; sourceTree = "<group>"; };
 		948F25C1250C69BE003C61F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948F25CD2511CA66003C61F3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		948F25CF2511CD95003C61F3 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		948F2D91256B8FB0008134BE /* RecurringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringView.swift; sourceTree = "<group>"; };
+		948F2D96256B8FD1008134BE /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		948F2D9B256B9B04008134BE /* UpcomingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingView.swift; sourceTree = "<group>"; };
+		948F2DA9256E39EB008134BE /* thriveInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thriveInfo.swift; sourceTree = "<group>"; };
+		948F2DB4256E4E5A008134BE /* PastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastView.swift; sourceTree = "<group>"; };
+		948F2DF725722A4E008134BE /* FilteredActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredActivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +134,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		943C1B59257B48EA0080CEA9 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				943C1B5A257B49030080CEA9 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		947D4A492574BDEF00E8DE6C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				948F25CD2511CA66003C61F3 /* HomeView.swift */,
+				948F2D9B256B9B04008134BE /* UpcomingView.swift */,
+				948F2DB4256E4E5A008134BE /* PastView.swift */,
+				948F2D91256B8FB0008134BE /* RecurringView.swift */,
+				947D4A372574BC5C00E8DE6C /* TodayView.swift */,
+				947D4A3C2574BCA500E8DE6C /* WeekView.swift */,
+				947D4A412574BCBD00E8DE6C /* AllActivityView.swift */,
+				943C1B512578DE4A0080CEA9 /* PagerView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		948B280A2574C14E000F5815 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				948B282825760496000F5815 /* Activity+CoreDataClass.swift */,
+				948B282925760496000F5815 /* Activity+CoreDataProperties.swift */,
+				948B282A25760496000F5815 /* WeekDay+CoreDataClass.swift */,
+				948B282B25760496000F5815 /* WeekDay+CoreDataProperties.swift */,
+				948B27FD2574C0E8000F5815 /* Day+CoreDataClass.swift */,
+				948B27FE2574C0E8000F5815 /* Day+CoreDataProperties.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		948B280E2574C286000F5815 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				947D4A322574BA7400E8DE6C /* UserView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		948B28122574C2DA000F5815 /* Helper Functions */ = {
+			isa = PBXGroup;
+			children = (
+				940253CD255E6D9800DF6495 /* Functions.swift */,
+				948F2DF725722A4E008134BE /* FilteredActivity.swift */,
+			);
+			path = "Helper Functions";
+			sourceTree = "<group>";
+		};
+		948B28162574C305000F5815 /* FeedView */ = {
+			isa = PBXGroup;
+			children = (
+				948F25CF2511CD95003C61F3 /* FeedView.swift */,
+			);
+			path = FeedView;
+			sourceTree = "<group>";
+		};
+		948B281A2574C311000F5815 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				948F2D96256B8FD1008134BE /* ProgressView.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		948B281E2574C341000F5815 /* ActivityViews */ = {
+			isa = PBXGroup;
+			children = (
+				940253AE255E513500DF6495 /* AddActivity.swift */,
+				940253C5255E66BF00DF6495 /* ActivityView.swift */,
+				948B284125761726000F5815 /* ActivitySectionView.swift */,
+			);
+			path = ActivityViews;
+			sourceTree = "<group>";
+		};
+		948B28362576110C000F5815 /* Thrive Style */ = {
+			isa = PBXGroup;
+			children = (
+				948B28372576114A000F5815 /* ElementStyle.swift */,
+				948B283C25761178000F5815 /* ButtonStyle.swift */,
+			);
+			path = "Thrive Style";
+			sourceTree = "<group>";
+		};
 		948F2591250C69BB003C61F3 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +245,26 @@
 		948F259C250C69BB003C61F3 /* Thrive */ = {
 			isa = PBXGroup;
 			children = (
-				948F259D250C69BB003C61F3 /* AppDelegate.swift */,
-				948F259F250C69BB003C61F3 /* SceneDelegate.swift */,
-				948F25A1250C69BB003C61F3 /* ContentView.swift */,
+				943C1B59257B48EA0080CEA9 /* Settings */,
+				948B28362576110C000F5815 /* Thrive Style */,
+				948B280A2574C14E000F5815 /* New Group */,
+				947D4A492574BDEF00E8DE6C /* Home */,
+				948B281E2574C341000F5815 /* ActivityViews */,
+				948B28122574C2DA000F5815 /* Helper Functions */,
+				948B281A2574C311000F5815 /* ProgressView */,
+				948B28162574C305000F5815 /* FeedView */,
+				94F61AFA25765CE200C8FFFA /* Calendar */,
+				948B280E2574C286000F5815 /* User */,
+				948F25A5250C69BE003C61F3 /* Preview Content */,
 				948F25A3250C69BE003C61F3 /* Assets.xcassets */,
 				948F25A8250C69BE003C61F3 /* LaunchScreen.storyboard */,
+				946D2DDE252D040800A80F28 /* Thrive.xcdatamodeld */,
 				948F25AB250C69BE003C61F3 /* Info.plist */,
-				948F25A5250C69BE003C61F3 /* Preview Content */,
+				948F2DA9256E39EB008134BE /* thriveInfo.swift */,
+				948F25A1250C69BB003C61F3 /* ContentView.swift */,
+				948F259F250C69BB003C61F3 /* SceneDelegate.swift */,
+				948F259D250C69BB003C61F3 /* AppDelegate.swift */,
+				948B286125762799000F5815 /* Sample.swift */,
 			);
 			path = Thrive;
 			sourceTree = "<group>";
@@ -134,6 +293,14 @@
 				948F25C1250C69BE003C61F3 /* Info.plist */,
 			);
 			path = ThriveUITests;
+			sourceTree = "<group>";
+		};
+		94F61AFA25765CE200C8FFFA /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				943C1B5F257B4BF50080CEA9 /* CalendarView.swift */,
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +366,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Ryan Dunn";
 				TargetAttributes = {
 					948F2599250C69BB003C61F3 = {
@@ -267,9 +434,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947D4A3D2574BCA500E8DE6C /* WeekView.swift in Sources */,
+				948B284225761726000F5815 /* ActivitySectionView.swift in Sources */,
+				943C1B60257B4BF50080CEA9 /* CalendarView.swift in Sources */,
+				948F25D02511CD95003C61F3 /* FeedView.swift in Sources */,
+				940253C6255E66BF00DF6495 /* ActivityView.swift in Sources */,
+				948B28382576114A000F5815 /* ElementStyle.swift in Sources */,
+				948B282E25760496000F5815 /* WeekDay+CoreDataClass.swift in Sources */,
+				948B28042574C0E8000F5815 /* Day+CoreDataProperties.swift in Sources */,
+				94F61AF32576509B00C8FFFA /* Functions.swift in Sources */,
+				948B28032574C0E8000F5815 /* Day+CoreDataClass.swift in Sources */,
+				948F2DB5256E4E5A008134BE /* PastView.swift in Sources */,
+				947D4A382574BC5C00E8DE6C /* TodayView.swift in Sources */,
+				940253AF255E513500DF6495 /* AddActivity.swift in Sources */,
+				948B282F25760496000F5815 /* WeekDay+CoreDataProperties.swift in Sources */,
 				948F259E250C69BB003C61F3 /* AppDelegate.swift in Sources */,
+				948F25CE2511CA66003C61F3 /* HomeView.swift in Sources */,
+				948F2D9C256B9B04008134BE /* UpcomingView.swift in Sources */,
 				948F25A0250C69BB003C61F3 /* SceneDelegate.swift in Sources */,
+				948B282D25760496000F5815 /* Activity+CoreDataProperties.swift in Sources */,
+				947D4A332574BA7400E8DE6C /* UserView.swift in Sources */,
+				948B282C25760496000F5815 /* Activity+CoreDataClass.swift in Sources */,
+				948F2DAA256E39EB008134BE /* thriveInfo.swift in Sources */,
+				946D2DE0252D040800A80F28 /* Thrive.xcdatamodeld in Sources */,
 				948F25A2250C69BB003C61F3 /* ContentView.swift in Sources */,
+				948F2D92256B8FB0008134BE /* RecurringView.swift in Sources */,
+				948B286225762799000F5815 /* Sample.swift in Sources */,
+				948F2DF825722A4E008134BE /* FilteredActivity.swift in Sources */,
+				948B283D25761178000F5815 /* ButtonStyle.swift in Sources */,
+				947D4A422574BCBD00E8DE6C /* AllActivityView.swift in Sources */,
+				943C1B522578DE4A0080CEA9 /* PagerView.swift in Sources */,
+				943C1B5B257B49030080CEA9 /* SettingsView.swift in Sources */,
+				948F2D97256B8FD1008134BE /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +538,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -366,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,6 +599,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -420,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -436,6 +634,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Thrive/Preview Content\"";
+				DEVELOPMENT_TEAM = BNQRG33NS3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Thrive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +654,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Thrive/Preview Content\"";
+				DEVELOPMENT_TEAM = BNQRG33NS3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Thrive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +675,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThriveTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,7 +696,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ThriveTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +788,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		946D2DDE252D040800A80F28 /* Thrive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				946D2DDF252D040800A80F28 /* Thrive.xcdatamodel */,
+			);
+			currentVersion = 946D2DDF252D040800A80F28 /* Thrive.xcdatamodel */;
+			path = Thrive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 948F2592250C69BB003C61F3 /* Project object */;
 }
